@@ -1,0 +1,189 @@
+.login-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 30vh; */
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .login-1, .login-5 {
+    margin-bottom: 10px;
+  }
+  
+  .login-2, .login-6 {
+    font-weight: bold;
+    color: #84adff;
+  }
+  
+  .login-3, .login-6 {
+    width: 92%;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .login-4 {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .login-7 {
+    padding: 10px 20px;
+    background-color: #84adff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .login-7:hover {
+    background-color: #84adff;
+  }
+  
+  .login-8 {
+    display: block;
+    margin-top: 10px;
+    color: #84adff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .login-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-8:hover {
+    color: #84adff;
+  }
+  
+  @media (max-width: 1100px) {
+    .login-0 {
+      /* padding: 20px; */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .login-0 {
+      /* padding: 10px; */
+    }
+  
+    .login-8 {
+      /* position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%); */
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .login-8 {
+      bottom: 10px;
+    }
+  }
+  
+
+  .wavy {
+    text-align: center;
+    position: relative;
+    -webkit-box-reflect: below -22px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  }
+  .apple1 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.1s);
+  }
+  .apple2 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.2s);
+  }
+  .apple3 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.3s);
+  }
+  
+  .copyright{
+    margin-top: 50px;
+  }
+  .apple4 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.4s);
+  }
+  .apple5 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.5s);
+  }
+  .apple6 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.6s);
+  }
+  .apple7 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.7s);
+  }
+  .apple8 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.8s);
+  }
+  .apple9 {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    
+    text-transform: uppercase;
+    animation: animate 1.5s ease-in-out infinite;
+    animation-delay: calc(0.9s);
+  }
+  @keyframes animate {
+    0% {
+      transform: translateY(0px);
+    }
+    20% {
+      transform: translateY(-20px);
+    }
+    40%,
+    100% {
+      transform: translateY(0px);
+    }
+  } 
+  

@@ -1,0 +1,89 @@
+.checkout-3 {
+    justify-content: center;
+}
+.checkout-0 {
+  margin-top: 5vh;
+    text-align: center;
+    padding: 20px;
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: .2px .2px 10px 3px #84adff;
+  }
+  
+  .checkout-1, .checkout-5, .checkout-8, .checkout-11 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .checkout-2, .checkout-6, .checkout-9, select {
+    
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .checkout-10 {
+    margin-top: 20px;
+  }
+  
+  .checkout-12 {
+    padding: 10px 20px;
+    background-color: #84adff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 330ms ease-in-out;
+  }
+  
+  .checkout-12:hover {
+    background-color: #84adff;
+    transform: scale(1.2);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .checkout-0 {
+      padding: 10px;
+    }
+  
+    .checkout-2, .checkout-6, .checkout-9, select {
+      margin-top: 10px;
+    }
+  
+    .checkout-10 {
+      margin-top: 15px;
+    }
+    
+    /* Limit input box width to half the screen size */
+    .checkout-2, .checkout-6, .checkout-9 {
+      max-width: 50vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .checkout-0 {
+      padding: 15px;
+    }
+  }
+  
+
+.checkout-15 {
+    color: #84adff;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+input {
+  background-color: #84adff;
+  color: white;
+  border: none;
+}
+
+input::placeholder{
+  color: white;
+}
+
+
